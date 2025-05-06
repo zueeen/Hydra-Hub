@@ -10,7 +10,7 @@ end
 
 local mainGui = createMainGui()
 
-function SimpleGuiLib.CreateButton(buttonText, position, callback)
+function HydraLib.CreateButton(buttonText, position, callback)
 	local button = Instance.new("TextButton")
 	button.Size = UDim2.new(0, 200, 0, 50)
 	button.Position = position or UDim2.new(0, 100, 0, 100)
