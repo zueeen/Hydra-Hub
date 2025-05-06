@@ -1,5 +1,4 @@
--- SimpleGuiLib.lua
-local SimpleGuiLib = {}
+local HydraLib = {}
 
 local function createMainGui()
 	local screenGui = Instance.new("ScreenGui")
@@ -31,4 +30,4 @@ function SimpleGuiLib.CreateButton(buttonText, position, callback)
 	return button
 end
 
-return SimpleGuiLib
+return HydraLib
